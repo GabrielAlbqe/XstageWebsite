@@ -1,0 +1,1037 @@
+* {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*header*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo1 {
+    padding-left: 1%;
+    padding-right: 1663;
+    width: 15%;
+}
+
+.headerTxt {
+    color: #060a42;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    letter-spacing: 1px;
+    transition: transform 3s ease;
+    font-weight: 400;
+}
+
+#inicio1 {
+    font-weight: 600;
+}
+
+.headerTxt a:hover {
+    color: #111db8;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li,
+a {
+    color: inherit;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+/*section 1*/
+
+.introdução {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 80px;
+
+}
+
+.title1 {
+    height: 110px;
+    color: #2D2F2F;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 0.5;
+
+}
+
+.azul {
+    color: #251482;
+
+}
+
+.int-container {
+    display: grid;
+    margin-left: 10%;
+}
+
+.img1 {
+    pointer-events: none;
+    margin-left: 75px;
+    width: 40%;
+}
+
+.introdução p {
+    margin-top: 5px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    width: 450px;
+    height: 45px;
+    text-align: justify;
+
+    color: #202121;
+}
+
+.title1 {
+    height: 65px;
+}
+
+.textInfo form {
+    padding-top: 30px;
+}
+
+.logo-Btn {
+    width: 30px;
+    height: 40px;
+    padding-bottom: 0px;
+    padding-right: 12px;
+    pointer-events: none;
+}
+
+.infoBtn1 {
+    border-radius: 4px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
+.btn-Container button {
+    font-size: 15px;
+    color: #ffffff;
+    width: 280px;
+    height: 50px;
+    background: linear-gradient(91deg, #2D0A88, #020A3A, #2D0A88);
+    letter-spacing: 1px;
+    transition: transform 0.2s ease;
+    font-weight: 550;
+}
+
+.infoBtn button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+/*apresentação*/
+
+.apresentação {
+    display: flex;
+    background-color: #040b39;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.apresentação p {
+    margin-left: 45px;
+    color: #e6e6e6;
+    width: 500px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.tamar {
+    text-align: center;
+}
+
+.xstage {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.tamar img {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.xstage img {
+    width: 31%;
+}
+
+/*section first*/
+
+.lego {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.img-fll {
+    margin-left: 128px;
+
+    width: 414px;
+    height: 127px;
+}
+
+.txt-fll {
+    margin-left: 14%;
+    margin-right: 10px;
+    width: 500px;
+    color: #000;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: normal;
+}
+
+/*Parte projetos*/
+
+.tituloPro {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.int-container2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.img-trt {
+    width: 30%;
+    height: 30%;
+    margin-top: 6%;
+}
+
+.problem-txt1 {
+    margin-bottom: 7px;
+
+}
+
+.problem-txt1,
+.problem-txt2 {
+    color: #ffffff;
+    padding-bottom: 10px;
+    border: 20px solid #040b39;
+    padding: 8px;
+    /* Aumenta o espaço interno */
+    background-color: #040B39;
+    /* Cor de fundo dentro da borda */
+    color: white;
+    border-radius: 10px;
+    height: 120px;
+    width: 480px;
+    font-size: 13px;
+    text-align: justify;
+
+    margin-left: 10%;
+    margin-right: 180px;
+    margin-bottom: 30px;
+}
+
+.tamarFoto {
+    border-radius: 10px;
+}
+
+.vermelho {
+    color: red;
+}
+
+.projetoProblem {
+    padding-bottom: 22px;
+}
+
+/*reuniao*/
+
+.partReuniao {
+    display: flex;
+    padding: 30px;
+    background-color: #040B39;
+}
+
+.imagens img {
+    margin-top: 20px;
+}
+
+.imagens {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.textos32 {
+    color: #fff;
+
+}
+
+.textos32 p {
+    margin-top: 15px;
+    margin-left: 150px;
+    font-size: 15px;
+    width: 450px;
+    text-align: justify;
+}
+
+.txto-1 {
+    margin-bottom: 70px;
+}
+
+/*tartarugueiros*/
+
+.img-tartarugueiros {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.txt-tart {
+    width: 500px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.AZUL {
+    color: #060a42;
+    font-weight: bold;
+}
+
+/*Solução*/
+
+.tituloPro2 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.int-container3 {
+    display: flex;
+    background: #040B39;
+    padding: 30px;
+}
+
+.solucao-txt1 {
+    text-align: justify;
+    color: #020A3A;
+    height: 90px;
+    width: 600px;
+    font-size: 15px;
+    border: 10px solid #9a9a9a;
+    border-radius: 20px;
+    padding: 8px;
+    /* Aumenta o espaço interno */
+    background-color: #9a9a9a;
+    /* Cor de fundo dentro da borda */
+    font-weight: 500;
+
+}
+
+.solucao-txt2 {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: justify;
+    color: #020A3A;
+    height: 180px;
+    width: 700px;
+    font-size: 15px;
+    border: 10px solid #9a9a9a;
+    border-radius: 20px;
+    padding: 8px;
+    /* Aumenta o espaço interno */
+    background-color: #9a9a9a;
+    /* Cor de fundo dentro da borda */
+    font-weight: 500;
+}
+
+.textos2 {
+    margin-top: 20px;
+    justify-items: center;
+}
+
+/*tabela*/
+
+.logos-xsEtmr {
+    padding: 20px;
+}
+
+.tamar2 {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-tmr {
+    width: 120px;
+}
+
+.nomedalogo {
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.xs2 {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.logo-xs2 {
+    width: 120px;
+}
+
+.logos-xsEtmr {
+    display: flex;
+}
+
+
+.title5 {
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+
+/*localizações*/
+
+.localizacoes {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+}
+
+.localização {
+    display: inline-block;
+    padding: 15px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.localização:hover {
+    background-color: #eae9e9;
+}
+
+.titulo-dos-form {
+    margin-top: 30px;
+    margin-left: 40px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #001060;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.especies-style {
+
+    margin-left: 40px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.ninhos-qnt {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    width: 175px;
+}
+
+.ninhos-qnt2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    width: 175px;
+}
+
+.carapaça {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    width: 120px;
+}
+
+.placas {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    width: 140px;
+}
+
+.Marcação {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    width: 140px;
+}
+
+.fileinput {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    width: 300px;
+}
+
+.title15 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.pequeno {
+
+    margin-left: 40px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.data {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.timee {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.Local {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 20px;
+    width: 130px;
+}
+
+.captura {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 20px;
+    width: 130px;
+}
+
+.obs {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 20px;
+    width: 170px;
+    max-height: 80px;
+}
+
+
+
+
+
+
+
+
+
+.marcaçãoTam {
+    width: 50px;
+}
+
+.tituloTabela {
+    padding-left: 40px;
+}
+
+#detalhes-da-localização {
+    margin-bottom: 20px;
+    /* Adiciona espaço abaixo do formulário */
+}
+
+#tabelas {
+    margin-top: 20px;
+    /* Adiciona espaço acima da tabela */
+}
+
+table {
+    border-collapse: collapse;
+    /* Remove espaços internos indesejados */
+    width: 100%;
+    margin-top: 10px;
+    /* Adiciona espaço entre o título e a tabela */
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    /* Adiciona espaço interno nas células */
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+#submit{
+    background-color: #001060;
+    color: #fff;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/*responsivo*/
+
+@media (max-width: 850px) {
+    /*header*/
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Logo1 {
+        display: none;
+    }
+
+    .headerTxt {
+        padding-top: 20px;
+        margin-right: 50px;
+        font-size: 17px;
+    }
+
+    #inicio1 {
+        font-weight: 600;
+    }
+
+    .headerTxt a:hover {
+        color: #111db8;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    li,
+    a {
+        color: inherit;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 10px;
+        list-style-type: none;
+    }
+
+
+
+    /*introdução-index*/
+    .introdução {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .title1 {
+        margin-top: 30px;
+        font-size: 35px;
+    }
+
+    .img1 {
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .introdução p {
+        display: none;
+
+    }
+
+    .infoBtn1 {
+        margin-top: 120px;
+    }
+
+    /*apresentação-index*/
+
+    .apresentação {
+        flex-direction: column;
+    }
+
+    .apresentação p {
+        width: 320px;
+        margin-left: 50px;
+        color: #e6e6e6;
+
+        text-align: justify;
+        font-weight: 400;
+
+    }
+
+    .tamar {
+        text-align: center;
+    }
+
+    .xstage {
+        text-align: center;
+    }
+
+    .xstage img {
+        margin-right: 50px;
+
+    }
+
+    .xstage p {
+        margin: 10px;
+    }
+
+    .tamar img {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .xstage img {
+        width: 31%;
+    }
+
+    /*first-index*/
+
+    .lego {
+        flex-direction: column;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .img-fll {
+        margin-left: 50px;
+
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .txt-fll {
+        margin-left: 60px;
+        margin-right: 10px;
+        margin-top: 30px;
+        width: 320px;
+        color: #000;
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 450;
+        line-height: normal;
+    }
+
+
+    /*SECTION 1 - PROJETO*/
+
+
+    .projetoProblem {
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .img-trt {
+        width: 80%;
+        height: 80%;
+        margin-left: 40px;
+    }
+
+    .problem-txt1 {
+        margin-bottom: 7px;
+
+    }
+
+    .problem-txt1,
+    .problem-txt2 {
+        padding-bottom: 80px;
+        height: 120px;
+        width: 280px;
+
+        margin-left: 12px;
+        margin-right: 180px;
+        margin-bottom: 30px;
+    }
+
+    .problem-txt2 {
+        padding-bottom: 110px;
+    }
+
+    .tamarFoto {
+        border-radius: 20px;
+    }
+
+    .vermelho {
+        color: red;
+    }
+
+    .projetoProblem {
+        padding-bottom: 22px;
+    }
+
+    /*SECTION 2 - PROJETO*/
+
+
+    .partReuniao {
+        flex-direction: column;
+        padding: 30px;
+        background-color: #040B39;
+    }
+
+    .imagens img {
+        margin-top: 20px;
+    }
+
+    .imagens {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .textos32 {
+        color: #fff;
+
+    }
+
+    .textos32 p {
+        margin-top: 15px;
+        margin-left: 3px;
+        font-size: 15px;
+        width: 290px;
+        text-align: justify;
+    }
+
+    .txto-1 {
+        margin-bottom: 50px;
+    }
+
+    /*SOLUÇÃO - PROJETO*/
+
+    .img-tartarugueiros {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .txt-tart {
+        text-align: justify;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .AZUL {
+        color: #060a42;
+        font-weight: bold;
+    }
+
+    .img-trt {
+        display: none;
+    }
+
+
+
+
+    .tituloPro2 {
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+    .int-container3 {
+        flex-direction: column;
+        background: #040B39;
+        padding: 20px;
+    }
+
+    .solucao-txt1 {
+        text-align: justify;
+        color: #020A3A;
+        height: 130px;
+        width: 280px;
+        font-size: 13px;
+        border: 10px solid #9a9a9a;
+        border-radius: 20px;
+        padding: 8px;
+        /* Aumenta o espaço interno */
+        background-color: #9a9a9a;
+        /* Cor de fundo dentro da borda */
+        font-weight: 500;
+
+    }
+
+    .solucao-txt2 {
+        margin-top: 10px;
+        margin-left: 5px;
+        text-align: justify;
+        color: #020A3A;
+        height: 290px;
+        width: 280px;
+        font-size: 13px;
+        border: 10px solid #9a9a9a;
+        border-radius: 20px;
+        padding: 8px;
+        /* Aumenta o espaço interno */
+        background-color: #9a9a9a;
+        /* Cor de fundo dentro da borda */
+        font-weight: 500;
+    }
+
+    .textos2 {
+        margin-top: 20px;
+        justify-items: center;
+    }
+
+    .xs2{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .logos-xsEtmr {
+        flex-direction: column;
+    }
+
+    .localização{
+        margin-top: 20px;
+    }
+
+
+    #cor{
+        margin-left: 40px;
+    }
+
+    #placas{
+        margin-left: 5px;
+    }
+
+    #marcação{
+        margin-left: 40px;
+    }
+
+    #fileinput{
+        margin-left: 30px;
+    }
+
+    .pequeno{
+        width: 280px;
+        text-align: justify;
+    }
+
+    #local{
+        margin-left: 40px;
+    }
+
+    #metodo{
+        margin-left: 10px;
+    }
+
+    #observacoes{
+        margin-left: 40px;
+    }
+
+    #ovosPorNinho{
+        margin-left: 40px;
+    }
+
+    #tabelas{
+        overflow-x: auto;
+    }
+
+}

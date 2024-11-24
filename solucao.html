@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-xstage2.png" rel="stylesheet">
+    <title>X-STAGE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <section class="solucaoPart">
+        <h3 class="tituloPro2">VIMAPE - VIDA MARINHA EM PERIGO</h3>
+        <div class="int-container3">
+            <div class="textos2">
+                <p class="solucao-txt1">Nosso site oferece uma tabela intuitiva, onde todos os dados preenchidos ficam
+                    salvos automaticamente e podem ser acessados a qualquer momento pelo celular, eliminando a
+                    necessidade de anotações manuais e aumentando a eficiência do processo.</p>
+                <p class="solucao-txt2">
+                    1. Acesse a tabela: Entre na área específica onde a tabela está disponível. <br>
+                    2. Preencha os dados: Insira as informações necessárias em cada campo da tabela. <br>
+                    3. Clique em "Salvar": Após preencher, clique no botão "Salvar" para garantir que os dados fiquem
+                    armazenados no site. <br>
+                    4. Acesse de qualquer lugar: Sempre que precisar consultar ou atualizar as informações, basta abrir o
+                    site pelo celular ou computador. <br>
+                    Esses passos garantem que seus dados estejam sempre organizados e acessíveis, sem necessidade de
+                    anotações manuais.
+
+                </p>
+            </div>
+        </div>
+ </section>
+
+ <section class="tabela">
+    <div class="logos-xsEtmr">
+        <div class="tamar2">
+            <img src="img/logo-tamar.png" class="logo-tmr" alt="LOGO Do projeto tamar">
+            <h3 class="nomedalogo">PROJETO TAMAR</h3>
+        </div>
+        <div class="xs2">
+            <img src="img/logo-xstage2.png" class="logo-xs2" alt="logo da xstage">
+            <h3 class="nomedalogo">X-STAGE</h3>
+        </div>
+    </div>
+
+    <h2 class="title5">VIMAPE</h2>
+
+    <div id="localizacoes" class="localizacoes">
+        <div class="localização" onclick="mostrarFormulario('Praia de Almofala (Ceará)')">Praia de Almofala (Ceará)</div>
+        <div class="localização" onclick="mostrarFormulario('Praia do Futuro (Ceará)')">Praia do Futuro (Ceará)</div>
+        <div class="localização" onclick="mostrarFormulario('Praia do Paiva (Pernambuco)')">Praia do Paiva (Pernambuco)</div>
+        <div class="localização" onclick="mostrarFormulario('Praia do Forte (Bahia)')">Praia do Forte (Bahia)</div>
+    </div>
+
+    <div id="detalhes-da-localização" style="display: none;">
+        <h3 class="titulo-dos-form"><span id="localizacaonome"></span></h3>
+
+        <div id="formulario">
+            <h3 class="title15">Identificação da tartaruga</h3>
+            <select name="tartaruga" class="especies-style" id="tartaruga">
+                <option value="">Selecione uma espécie...</option>
+                <option value="Aruanã">Verde (Aruanã Chelonia mydas)</option>
+                <option value="Cabeçuda">Cabeçuda/Mestiça (Caretta caretta)</option>
+                <option value="Couro">Couro/gigante (Dermochelys coriacea)</option>
+                <option value="Pente">Pente/legítma (Eretmochelys imbricata)</option>
+                <option value="Olivia">Olivia (Lepidochelys olivacea)</option>
+            </select>
+            <input type="text" id="cor" name="cor" class="carapaça" placeholder="Cor da carapaça">
+            <input type="number" id="placas" name="placas" min="1" max='8'class="placas" placeholder="N. de placas laterais">
+            <input type="text" id="marcação" name="marcação" class="Marcação" placeholder="Marcação(ex: TX123)">
+            <input type="file" name="uploadedfile" id="fileinput" class="fileinput" placeholder="Foto da tartaruga">
+            <br>
+            <h3 class="title15">Ameaças</h3>
+            <h2 class="pequeno">Prazo de captura das tartarugas marinhas em determinados tipos de pesca</h2>
+            <input type="date" name="date" id="date" class="data">
+            <input type="time" name="time" id="time" class="timee">
+            <input type="text" name="local" id="local" class="Local" placeholder="Local">
+            <input type="text" name="metodo" id="metodo" class="captura" placeholder="Método de captura">
+            <input type="text" name="obs" id="observacoes" class="obs" placeholder="Observações">
+            <br>
+            <input type="number" id="ninhosPorTemp" name="ninhos" min="0" class="ninhos-qnt" placeholder="Ninhos(por temporada)">
+            <input type="number" id="ovosPorNinho" name="ninhos" min="0" class="ninhos-qnt2" placeholder="Ovos(Em cada Ninho)">
+            <button type="button" id="submit" onclick="registroEmEdicao !== null ? salvarEdicao() : adicionarDados()">Salvar</button>
+
+        </div>
+
+
+        <div id="tabelas">
+            <!--As tabelas especificas para cada localização estarao aqui-->
+        </div>
+
+        <button onclick="voltarParaEscolha()">Voltar</button>
+    </div>
+
+ </section>
+</body>
+</html>
